@@ -1,0 +1,285 @@
+body{
+	margin: 0;
+	background-image:linear-gradient(270deg, #e8e2e2,#707070);	
+}
+.main-logo{
+	position:relative;
+	left:-90px;
+    padding-bottom: 55px;
+    margin-right: 100%;
+}
+.side-bar{
+	list-style-type:none;
+	margin:0;
+	background-image:linear-gradient(270deg, #858585,#020202);
+    width:16%;
+	position:fixed;
+	height:100%;
+    padding-top: 16px;
+}
+.side-bar a{
+	text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    padding: 13px;
+    border-bottom: 2px solid white;
+    border-radius: 0px 0px 0px 20px;
+    transition-duration: 0.3s;    
+}
+.side-bar a:hover {
+    color: white;
+    transform: scale(1.2);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px 20px 20px 20px ;
+}
+.side-bar a.active{
+    color: white;
+    border-radius: 20px 20px 20px 20px; 
+}
+.body-icon{
+    padding-left: 290px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+#text span{
+    padding-left: 50px;
+    margin-top: 0;
+  }
+ #main-content{
+    padding-left: 280px;
+  }
+#main-content span{
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+#content
+			{
+				margin-left:20%;
+				padding-left:15px;
+			}
+			input
+			{	
+				border:2px solid gray;
+				font-size:15px;
+				padding:10px;
+				margin-left:25px;
+				margin-bottom:-15px;
+				display:block;
+				border-radius: 10px;
+			}
+			label
+			{	
+				margin-left:25px;
+				margin-bottom:-20px;
+				display:block;
+			}
+			#title
+			{
+				margin-top:0;
+				margin-bottom:0px;
+			}
+			button
+			{	
+				margin-left:10px;
+				width:100px;
+				padding:5px;
+				background-color:white;
+				border:2px solid gray;
+				border-radius:40px;
+				font-size:20px;
+				display:inline-block;
+			}
+			button:hover
+			{
+				background-color:black;
+				display:inline-block;
+				color: white;
+			}
+			#table-header
+			{
+				background-color: black;
+				margin:0;
+				padding:0;
+				color:white;
+			}
+			#table-size
+			{
+				
+				overflow:auto; height:580px; width:660px;
+				background-color:white;
+				position:relative;
+				left:400px;
+				top:0px;
+			}
+			table
+			{
+				width:100%;
+			}
+			#icon
+			{	
+				margin-top:0px;
+				margin-bottom:0px
+			}
+			select
+			{
+				border:2px solid #005b96;
+				font-size:15px;
+				padding:10px;
+				margin-left:25px;
+				margin-bottom:25px;
+				display:block;
+			}
+			tr:hover
+			{
+				background-color:#f3f6f4;
+			}
+			#Employee-specialization
+			{
+				margin-bottom:20px;
+				border-color: black;
+			}
+			#Employee-specialization:hover
+			{
+				margin-bottom:20px;
+				border-color: gray;
+			}
+            #Date
+			{
+				margin-bottom:20px;
+			}
+            #table-medicine-2
+			{
+				background-color:black;
+				margin:0;
+				padding:0;
+				color:white;
+			}
+			#table-size2
+			{
+				
+				overflow:auto; height:580px; width:98%;
+				background-color:white;
+				position:relative;
+				top:10px;
+			}
+			#table-medicine
+			{
+				width:100%;
+			}
+			#Medicine-id
+			{
+				position:absolute;
+				top:90px;	
+			}
+			#Medicine-name
+			{
+				position:absolute;
+				top:150px;
+			}
+			#Buying-price
+			{
+				position:absolute;
+				top:210px;
+			}
+			#Selling-price
+			{
+				position:absolute;
+				top:270px;
+			}
+			#Quantity
+			{
+				position:absolute;
+				top:330px;
+			}
+			#Manufacturer-name
+			{
+				position:absolute;
+				top:390px;
+			}
+			#Date
+			{
+				position:absolute;
+				top:455px;
+			}
+			#mi-label
+			{
+				position:absolute;
+				top:50px;
+			}
+			#mn-label
+			{
+				position:absolute;
+				top:110px;
+			}
+			#bp-label
+			{
+				position:absolute;
+				top:170px;
+			}
+			#sp-label
+			{
+				position:absolute;
+				top:230px;
+			}
+			#q-label
+			{
+				position:absolute;
+				top:290px;
+			}
+			#ma-label
+			{
+				position:absolute;
+				top:350px;
+			}
+			#ed-label
+			{
+				position:absolute;
+				top:415px;
+			}
+			#add
+			{
+				position:absolute;
+				top:510px;
+				left:300px;
+			}
+			#update
+			{
+				position:absolute;
+				top:510px;
+				left:410px;
+			}
+			#delete
+			{
+				position:absolute;
+				top:510px;
+				left:520px;
+			}
+			#search
+			{
+				position:absolute;
+				top:10px;
+				left:1105px;
+			}
+			#search-label
+			{
+				position:absolute;
+				top:0px;
+				left:1040px;
+			}
+			#search2
+			{
+				position: absolute;
+				right: 20px;
+				top:23;
+			}
+			#search-label2
+			{
+				position:absolute;
+				top:12px;
+				left:1035px;
+			}

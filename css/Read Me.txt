@@ -1,0 +1,10 @@
+DS-main = dashboard
+
+customer for the two customer pages
+
+main = for login page
+
+man-main = manufacture
+
+medicine stock page for the two medicine pages
+

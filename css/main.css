@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(270deg , white, black);
+}
+div{
+    background-image: linear-gradient(270deg , rgb(197, 196, 196), rgb(73, 72, 72));
+	text-align:center;
+	border:5px solid black;
+	border-radius:20%;
+	margin-top:170px;
+	margin-left:500px;
+	margin-right:500px;
+}
+form{
+	padding:30px;
+}
+label{
+	font-size:20px;
+}
+input{	
+	border:2px solid #4a4a4b;
+	font-size:20px;
+    border-radius: 20px;
+}
+#username{
+	background-image: url("Username icon.png");
+	background-repeat:no-repeat;
+	background-size:22.75px;	
+	background-position:3; 
+	text-indent:30px;
+	}
+	#password{
+	background-image: url("Password icon.png");
+	background-repeat:no-repeat;
+	background-size:22.75px;	
+	background-position:3; 
+	text-indent:30px;
+	}
+#login_button{
+	width:150px;
+	background-color:white;
+	border:2px solid #4a4a4b;
+	border-radius:15px;
+	font-size:25px;
+	display:inline-block;
+    color:black;
+    transition-duration: 0.4s;
+}
+#login_button:hover ,#login_button:active{
+	background-color:black;
+    color: white;
+	display:inline-block;
+
+}
+#logo{	
+	position:fixed;
+	left: -60px;
+	width: 380px;
+	top:0%;
+}
+#un-icon
+{
+	position:absolute;
+	top:309px;
+	left:530px;
+}
+#ps-icon
+{
+	position:absolute;
+	top:362px;
+	left:530px;
+}

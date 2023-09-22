@@ -1,0 +1,50 @@
+<?php
+			$host = "localhost";
+			$user = "root";
+			$pass = "";
+			$db = "pms";
+			
+			$conn = mysqli_connect($host,$user,$pass,$db);
+			
+			$show = "SELECT * FROM manu";
+			$result = mysqli_query($conn,$show);
+			
+			
+			
+			if( isset($_POST['compID']) )
+			{
+				$compID = $_POST['compID'];
+			}
+			if( isset($_POST['compName']) )
+			{
+				$compName = $_POST['compName'];
+			}
+			if( isset($_POST['compPhone']) )
+			{
+				$compPhone = $_POST['compPhone'];
+			}
+			if( isset($_POST['compAddress']) )
+			{
+				$compAddress = $_POST['compAddress'];
+			}
+			
+			$sqls = "";
+			
+			if(isset($_POST['add']))
+			{
+				$sqls = "INSERT INTO manu (compName,compPhone,compAddress)
+						VALUES ($compName','$compPhone','$compAddress')";
+						mysqli_query($conn,$sqls);
+			}
+			else if(isset($_POST['update']))
+			{
+				$sqls = "UPDATE manu SET compName='$compName',compPhone='$compPhone',compAddress='$compAddress'
+						 WHERE compID=$compID";
+				mysqli_query($conn,$sqls);
+			}
+			else if(isset($_POST['delete']))
+			{
+				$sqls = "DELETE FROM manu WHERE compID=$compID";
+				mysqli_query($conn,$sqls);
+			}
+		?>

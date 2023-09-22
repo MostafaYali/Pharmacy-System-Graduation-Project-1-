@@ -1,0 +1,278 @@
+body{
+	margin: 0%;
+	background-image:linear-gradient(270deg, #e8e2e2,#707070);	
+}
+.main-logo{
+	position:relative;
+	left:-32%;
+  padding-bottom: 18%;
+  margin-right: 100%;
+}
+.side-bar{
+	list-style-type:none;
+	margin: 0%;
+	background-image:linear-gradient(270deg, #858585,#020202);
+  width: 16%;
+	position:fixed;
+	height: 100%;
+  padding-top: 2%;
+}
+.side-bar a{
+	 text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    padding: 5%;
+    border-bottom: 2px solid white;
+    border-radius: 0px 0px 0px 20px;
+    transition-duration: 0.3s;    
+}
+.side-bar a:hover {
+    color: white;
+    transform: scale(1.2);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px 20px 20px 20px ;
+}
+.side-bar a.active{
+    color: white;
+    border-radius: 20px 20px 20px 20px; 
+}
+.body-icon{
+    padding-left: 20%;
+}
+.icon{
+    width: 16%;
+}
+#text span{
+    padding-left: 20%;
+    margin-top: 0%;
+  }
+ #main-content{
+    padding-left: 20%;
+  }
+#main-content span{
+    padding-left: 1%;
+    padding-bottom: 20%;
+}
+.exp-icon{
+  width: 23%;
+  height: 23%;
+}
+
+
+
+.no-of-employee {
+  position: absolute;
+    width: 17%;
+    left: 80%;
+    bottom: 63%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+    height: 28%;
+}
+.amount2 {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  text-align: center;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+.amount2 p {
+  font-size: 15px;
+  margin-top: 0%;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+.amount2 input {
+  position: absolute;
+  right: 4%;
+  height: 3%;
+  padding: 6%;
+  margin-top: 0%;
+  text-align: center;
+  color: rgb(35, 35, 35);
+  border-radius: 10px;
+  right: 10%;
+  background-color: whitesmoke;
+}
+.amount2 .cont2 {
+  margin-top: 10%;
+}
+.medicines1 {
+    position: absolute;
+    width: 17%;
+    left: 20%;
+    bottom: 80%;
+    border: 2px solid white;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .best-seller {
+    position: absolute;
+    width: 17%;
+    left: 40%;
+    bottom: 80%;
+    border: 2px solid white;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .cashiers {
+    position: absolute;
+    width: 17%;
+    left: 60%;
+    bottom: 80%;
+    border: 2px solid white;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .companies {
+    position: absolute;
+    width: 17%;
+    left: 20%;
+    top: 25%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+
+  .total-bills {
+    position: absolute;
+    width: 17%;
+    left: 40%;
+    top: 25%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .pharmacists {
+    position: absolute;
+    width: 17%;
+    left: 60%;
+    top: 25%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .expired {
+    position: absolute;
+    width: 17%;
+    left: 80%;
+    top: 45%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .amount3 {
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  .amount3 p {
+    font-size: 15px;
+    margin-top: 0%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  .amount3 input {
+    height: 3%;
+    width: 50%;
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  .amount3 .cont3 {
+    margin-top: 10%;
+  }
+  .total-selles {
+    position: absolute;
+    width: 17%;
+    left: 80%;
+    top: 65%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(35, 35, 35);
+  }
+  .amount4 {
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  .amount4 p {
+    font-size: 15px;
+    margin-top: 0%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  .amount4 input {
+    height: 3%;
+    margin-top: 0%;
+    width: 50%;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  .amount4 .cont4 {
+    margin-top: 10%;
+  }
+  .amount {
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  .amount p {
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+ .amount input {
+    text-align: center;
+    width: 50%;
+    color: rgb(35, 35, 35);
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+table{
+		width:100%;
+  }
+#table-header{
+		background-color: black;
+		margin:0;
+		padding:0;
+		color:white;
+    width: 30%;
+  }
+#table-size{
+		overflow:auto; height:45.3%; width: 58.5%;
+		background-color:white;
+		position:relative;
+		left: 18%;
+    top: -3em;
+	}

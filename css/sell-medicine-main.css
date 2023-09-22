@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	background-image:linear-gradient(270deg, #e8e2e2,#707070);	
+}
+.main-logo{
+	position:relative;
+	left:-90px;
+    padding-bottom: 55px;
+    margin-right: 100%;
+}
+.side-bar{
+	list-style-type:none;
+	margin:0;
+	background-image:linear-gradient(270deg, #858585,#020202);
+    width:16%;
+	position:fixed;
+	height:100%;
+    padding-top: 16px;
+}
+.side-bar a{
+	text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    padding: 13px;
+    border-bottom: 2px solid white;
+    border-radius: 0px 0px 0px 20px;
+    transition-duration: 0.3s;    
+}
+.side-bar a:hover {
+    color: white;
+    transform: scale(1.2);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px 20px 20px 20px ;
+}
+.side-bar a.active{
+    color: white;
+    border-radius: 20px 20px 20px 20px; 
+}
+.body-icon{
+    padding-left: 290px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+#text span{
+    padding-left: 50px;
+    margin-top: 0;
+  }
+ #main-content{
+    padding-left: 280px;
+  }
+#main-content span{
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+#content
+			{
+				position: absolute;
+				left: 300px;
+				margin-left:20%;
+				
+				
+			}
+			#addtocart
+			{	
+				width:150px;
+				position:absolute;
+				left: 250px;
+				top:215px;
+			}
+			#checkout
+			{
+				position: absolute;
+				top: 550px;
+				left: 640px;
+			}
+			#remove
+			{
+				position: absolute;
+				top: 550px;
+				left:-15px;
+			}
+			#search
+			{
+				position: absolute;
+				right: 800px;
+				top:10px;
+			}
+			#search-box
+			{
+				width: 215px;
+				height:530px;
+				position: absolute;
+				right: 800px;
+				top:60px;
+			}
+			
+			input
+			{	
+				border:2px solid gray;
+				font-size:15px;
+				padding:10px;
+				margin-left:25px;
+				margin-bottom:-15px;
+				display:block;
+				border-radius: 10px;
+			}
+			label
+			{	
+				margin-left:25px;
+				margin-bottom:-20px;
+				display:block;
+			}
+			#title
+			{
+				left: 300px;
+				margin-left:20%;
+				margin-top:0;
+				margin-bottom:80px;
+			}
+			button
+			{	
+				margin-left:10px;
+				width:100px;
+				padding:5px;
+				background-color:white;
+				border:2px solid gray;
+				border-radius:40px;
+				font-size:20px;
+				display:inline-block;
+			}
+			button:hover
+			{
+				background-color:black;
+				display:inline-block;
+                color:white;
+			}
+			#table-header
+			{
+				border-spacing:100px;
+				border: 80px;
+				width: 100px;
+				background-color:black;
+				margin:50%;
+				color:white;
+			}
+			#table-size
+			{
+				
+				overflow:auto; height:280px; width:750px;
+				background-color:white;
+				position:relative;
+				left:0px;
+				top:260px;
+			}
+			table
+			{
+				width:100%;
+			}
+			tr:hover
+			{
+				
+				background-color:#f3f6f4;
+			}
+			#Medicine-name
+			{	
+				position: absolute;
+				left: 400px;
+				top:40px;
+			}
+			#no-of-units
+			{
+				position: absolute;
+				left: 400px;
+				top:106px;
+			}
+			#total-price
+			{
+				position: absolute;
+				left: 400px;
+				top:174px;				
+			}
+			#Medicine-id
+			{	
+				position: absolute;
+				left: -10px;
+				top:40px;
+			}
+			#price-per-unit
+			{
+				position: absolute;
+				left: -10px;
+				top:106px;
+			}
+			#Date
+			{
+				position: absolute;
+				left: -10px;
+				top:174px;				
+			}
+			#md-label
+			{
+				width:250px;
+				position:absolute;
+				left:400px;
+				top:0px;
+			}
+			#nou-label
+			{
+				width:250px;
+				position:absolute;
+				left:400px;
+				top:67px;
+			}
+			#tp-label
+			{
+				width:250px;
+				position:absolute;
+				left:400px;
+				top:135px;
+			}
+			#mi-label
+			{
+				width:250px;
+				position:absolute;
+				left:-10px;
+				top:0px;
+			}
+			#ppu-label
+			{
+				width:250px;
+				position:absolute;
+				left:-10px;
+				top:67px;
+			}
+			#d-label
+			{
+				width:250px;
+				position:absolute;
+				left:-10px;
+				top:135px;
+			}
